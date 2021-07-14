@@ -38,6 +38,16 @@ body {
     width: 10vw;
 }
 
+.rectangle {
+    width: 60vw;
+    height: 3vh;
+    background: #EFE0F6;
+    margin-top: -14vh;
+    margin-left: 40vw;
+    margin-bottom: 14vh;
+    padding-right: 0;
+}
+
 @media only screen and (max-width: 900px) {
     .main-nav ul {
         display: flex;
@@ -70,5 +80,15 @@ body {
     
     .main-header img {
         width: 20vw;
+    }
+
+    .rectangle {
+        width: 60vw;
+        height: 1.5vh;
+        background: #EFE0F6;
+        margin-top: -14.5vh;
+        margin-left: 40vw;
+        margin-bottom: 14vh;
+        padding-right: 0;
     }
   }
