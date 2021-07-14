@@ -1,0 +1,21 @@
+.about-page {
+    display: flex;
+}
+
+.left img {
+    width: 30vw;
+    margin-left: 10vw;
+    margin-top: 15vh;
+}
+
+.about-description {
+    font-size: 4vh;
+    margin-right: 10vw;
+    margin-left: 5vw;
+    font-weight: 10;
+    text-align: center;
+}
+
+.about-description span {
+    background-color: #EFE0F6;
+}

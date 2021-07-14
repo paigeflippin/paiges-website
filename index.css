@@ -1,0 +1,23 @@
+.main-page {
+    display: flex;
+    justify-content: space-between;
+}
+
+.right img {
+    border: 12px solid #EFE0F6; 
+    width: 30vw;
+    margin-right: 17vw;
+}
+
+.left img{
+    width: 30vw;
+    margin-left: 15vw;
+    margin-top: 15vh;
+}
+
+.description {
+    font-size: 3vh;
+    margin-left: 16vw;
+    margin-top: -.1vh;
+    font-weight: 50;
+}

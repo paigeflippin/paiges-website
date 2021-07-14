@@ -1,0 +1,48 @@
+.contact-page {
+    display: flex;
+}
+
+.left img {
+    width: 30vw;
+    margin-left: 10vw;
+    margin-top: 10vh;
+}
+
+.contact-email {
+    font-size: 5vh;
+    margin-right: 10vw;
+    margin-left: 10vw;
+    margin-top: 17vh;
+    font-weight: 10;
+    text-align: center;
+}
+
+.contact-email span {
+    background-color: #EFE0F6;
+}
+
+.contact-phone {
+    font-size: 5vh;
+    margin-right: 10vw;
+    margin-left: 10vw;
+    margin-top: -10vh;
+    font-weight: 10;
+    text-align: center;
+}
+
+.contact-phone span {
+    background-color: #EFE0F6;
+}
+
+.contact-linkedin {
+    font-size: 5vh;
+    margin-right: 10vw;
+    margin-left: 10vw;
+    margin-top: -10vh;
+    font-weight: 10;
+    text-align: center;
+}
+
+.contact-linkedin span {
+    background-color: #EFE0F6;
+}
