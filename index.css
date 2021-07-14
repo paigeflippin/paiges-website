@@ -21,3 +21,31 @@
     margin-top: -.1vh;
     font-weight: 50;
 }
+
+@media only screen and (max-width: 900px) {
+    .main-page {
+        display: grid;
+        justify-content: space-between;
+    }
+    
+    .right img {
+        border: 12px solid #EFE0F6; 
+        width: 80vw;
+        margin-right: 15vw;
+        margin-left: 6vw;
+    }
+    
+    .left img{
+        width: 60vw;
+        margin-top: -5vh;
+        margin-left: 20vw;
+        margin-right: 10vw;
+    }
+
+    .description {
+        font-size: 2vh;
+        margin-top: -.3vh;
+        font-weight: 50;
+        margin-left: 8vw;
+    }
+}

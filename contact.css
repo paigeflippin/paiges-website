@@ -46,3 +46,52 @@
 .contact-linkedin span {
     background-color: #EFE0F6;
 }
+
+@media only screen and (max-width: 600px) {
+    .contact-page {
+        display: grid;
+    }
+    
+    .left img {
+        width: 70vw;
+        margin-left: 12vw;
+        margin-top: -5vh;
+    }
+    
+    .contact-email {
+        font-size: 3vh;
+        font-weight: 10;
+        margin-bottom: 15vh;
+        text-align: center;
+    }
+    
+    .contact-email span {
+        background-color: #EFE0F6;
+    }
+    
+    .contact-phone {
+        font-size: 3vh;
+        font-weight: 10;
+        margin-bottom: 15vh;
+        text-align: center;
+    }
+    
+    .contact-phone span {
+        background-color: #EFE0F6;
+    }
+    
+    .contact-linkedin {
+        font-size: 3vh;
+        font-weight: 10;
+        margin-bottom: 15vh;
+        text-align: center;
+    }
+    
+    .contact-linkedin span {
+        background-color: #EFE0F6;
+    }
+
+    .right {
+        margin-top: -12vh;
+    }
+  }

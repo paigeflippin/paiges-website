@@ -37,3 +37,38 @@ body {
 .main-header img {
     width: 10vw;
 }
+
+@media only screen and (max-width: 900px) {
+    .main-nav ul {
+        display: flex;
+        padding: 0;
+        list-style: none;
+    }
+    
+    .main-nav a {
+        padding: 2vw;
+        font-size: 2vh;
+        font-weight: 900;
+        text-decoration: none;
+        color: black;
+    }
+    
+    .main-nav a:hover {
+        color: rgb(126, 126, 126);
+    }
+    
+    .main-nav {
+        margin-top: 2.5vh;
+        margin-right: 2vw;
+    }
+    
+    .main-header {
+        display: flex;
+        height: 150px;
+        justify-content: space-between;
+    }
+    
+    .main-header img {
+        width: 20vw;
+    }
+  }

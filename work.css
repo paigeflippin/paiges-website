@@ -45,3 +45,53 @@
 .job-description a {
     color: black;
 }
+
+@media only screen and (max-width: 900px) {
+    .work-page {
+        display: grid;
+    }
+    
+    .left img {
+        width: 70vw;
+        margin-left: 12vw;
+        margin-top: -7vh;
+    }
+    
+    .right {
+        font-size: 2vh;
+        margin-right: 10vw;
+        margin-left: 5vw;
+        font-weight: 10;
+        text-align: center;
+    }
+    
+    .job-title {
+        font-size: 2vh;
+        font-weight: 500;
+        background-color: #EFE0F6;
+        margin-bottom: 3.5vh;
+    }
+    
+    .job-company {
+        font-size: 1.5vh;
+        font-style: italic;
+        font-weight: 50;
+        margin-bottom: 3.5vh;
+    }
+    
+    .job-dates {
+        font-size: 1.25vh;
+        font-weight: 50;
+        margin-bottom: 2vh;
+    }
+    
+    .job-description {
+        font-size: 1vh;
+        font-weight: 50;
+        margin-bottom: 3.5vh;
+    }
+    
+    .job-description a {
+        color: black;
+    }
+  }

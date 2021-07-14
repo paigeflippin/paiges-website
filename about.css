@@ -19,3 +19,28 @@
 .about-description span {
     background-color: #EFE0F6;
 }
+
+@media only screen and (max-width: 900px) {
+    .about-page {
+        display: grid;
+    }
+    
+    .left img {
+        width: 60vw;
+        margin-left: 14vw;
+        margin-top: -5vh;
+    }
+    
+    .about-description {
+        font-size: 3vh;
+        margin-right: 10vw;
+        margin-left: 5vw;
+        margin-top: 2vh;
+        font-weight: 10;
+        text-align: center;
+    }
+    
+    .about-description span {
+        background-color: #EFE0F6;
+    }
+  }
